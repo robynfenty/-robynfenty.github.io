@@ -1,0 +1,27 @@
+table {
+    border: solid 1px black;
+    }
+
+.label {
+    font-family: 'Satisfy', cursive;
+    color: darkred;
+    font-size: 24pt;
+    
+}
+
+
+
+h2 {
+    font-family: 'Dokdo', cursive;
+    color: darkred;
+    font-size: 24pt;
+}
+
+#Signup {
+    background-color: darkred;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 16pt;
+    border: none;
+
+}
