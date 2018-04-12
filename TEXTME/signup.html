@@ -9,29 +9,35 @@
   
 </head>
 <body>
-    <h1>TextME!</h1>
+    <h1 class="text-center">TextME!</h1>
 <div class="container-fluid">
    <!--<img src="img/envelogo.png" class="img-responsive logo">-->
 <form class="form-horizontal" method="post" action="signup.php">
-        <div class="form-group">
-                <label class="sr-only">Username</label>
-    <input type="text" placeholder="Username" name="username" required="required"></div>
+    <div class="form-group">
+        <label class="sr-only">Username</label>
+        <input type="text" class="form-control" placeholder="Username" name="username" required="required">
+    </div>
+        <!--<br><br>-->
+    <div class="form-group">
+        <label class="sr-only">Password</label>
+        <input type="password" class="form-control" placeholder="Password" name="password" required="required">
+    </div>
     <!--<br><br>-->
     <div class="form-group">
-            <label class="sr-only">Password</label>
-    <input type="password" placeholder="Password" name="password" required="required"></div>
+        <label class="sr-only">Firstname</label>
+        <input type="text" class="form-control" placeholder="First Name"  name="Firstname" required="required">
+    </div> 
+    <div class="form-group">
+        <label class="sr-only">Lastname</label>
+        <input type="text" class="form-control" placeholder="Last Name" name="Lastname" required="required">
+    </div>
     <!--<br><br>-->
     <div class="form-group">
-            <label class="sr-only">Firstname</label>
-    <input type="text" placeholder="First Name"  name="Firstname" required="required"></div> <div class="form-group">
-            <label class="sr-only">Lastname</label></div><input type="text" placeholder="Last Name" name="Lastname" required="required">
-    <!--<br><br>-->
-    <div class="form-group">
-        <br>
-            <label class="sr-only">Email</label>
-    <input type="email" placeholder="E-mail" name="email" required="required"></div>
+        <label class="sr-only">Email</label>
+        <input type="email" class="form-control" placeholder="E-mail" name="email" required="required">
+    </div>
     <!--<br><br><br>-->
-    <input id="Signup" class="btn-primary" type="submit" value="Sign Up">
+    <input id="Signup" class="btn btn-primary btn-block" type="submit" value="Sign Up">
 </form>
 </div>
 </body>

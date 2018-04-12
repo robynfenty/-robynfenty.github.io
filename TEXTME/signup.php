@@ -32,7 +32,8 @@ $lastname   = $_POST['Lastname'];
 
 $sql = "INSERT INTO signup (`username`, `email`, `password`, `Firstname`, `Lastname`) VALUES ('".$username."', '".$email."', '".$password."', '".$firstname."', '".$lastname."')";
 if ($conn->query ($sql) === true) {
-    echo "Thank you";
+    echo '<img src="img/envelogo.png" alt="TextMe! Logo"> <br> 
+    <h2> Welcome to TextME!</h2>';
     } else {
         die("Failed: " . $conn->error);
     }

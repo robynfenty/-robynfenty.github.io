@@ -9,22 +9,42 @@ table {
     
 }
 
+body {
+    /*position: relative;
+    border: solid 0.5px lightgrey;*/
+    margin: 100px 70px 100px 200px;
+    width: 900px;
+    padding: 70px 100px 20px 450px;
+    box-sizing: border-box;
+}
+
 body > h1 {
     font-family: 'Satisfy', cursive;
     color: turquoise;    
 }
 
 h2 {
-    font-family: 'Dokdo', cursive;
-    color: darkred;
+    font-family: 'Lora', serif;
+    color: turquoise;
     font-size: 24pt;
 }
+
+
+/*.indexbox {
+    border: solid 0.5px grey;
+    top: 50%;
+	left: 50%;
+	margin: -350px 0 0 -450px;
+	padding: 50px 50px 50px 50px;
+	text-align: center;	
+}
+
 
 #Signup {
     background-color: darkred;
     color: white;
     font-family: 'Caveat', cursive;
     font-size: 16pt;
-    border: none;
+    border: none;*/
 
 }
