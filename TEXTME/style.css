@@ -8,7 +8,8 @@ table {
     font-size: 24pt;
     
 }
-h1 {
+
+body > h1 {
     font-family: 'Satisfy', cursive;
     color: turquoise;    
 }

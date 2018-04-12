@@ -31,20 +31,11 @@ $lastname   = $_POST['Lastname'];
 
 
 $sql = "INSERT INTO signup (`username`, `email`, `password`, `Firstname`, `Lastname`) VALUES ('".$username."', '".$email."', '".$password."', '".$firstname."', '".$lastname."')";
-if($conn->query($sql) === true){
-	echo '<h1>TEXTME</h1>
-    <table>
-    <tr>
-        <td>Chats</td><td>Contacts</td><td>go</td>
-    </tr>
-    </table>
-    <form>
-        <input type="email">
-        <input type="password">
-    </form>';
-} else{
-	 die("Failed: " . $conn->error);
-}
+if ($conn->query ($sql) === true) {
+    echo "Thank you";
+    } else {
+        die("Failed: " . $conn->error);
+    }
 ?>
 </body>
 </html>
